@@ -73,18 +73,24 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import node_js from '../assets/svg/skills/node_js.svg'
-import servicenow from '../assets/svg/skills/servicenow.svg'
+import servicenow from "../assets/svg/skills/servicenow.svg"
 import jquery from '../assets/svg/skills/jquery.svg'
 import ibm_bpm from '../assets/svg/skills/ibm_bpm.svg'
 import bitbucket from '../assets/svg/skills/bitbucket.svg'
 import express from '../assets/svg/skills/express.svg'
-
+import spring from "../assets/svg/skills/spring.png"
 import canva from '../assets/svg/skills/canva.svg'
+import hackerrank from "../assets/svg/skills/hackerrank.png"
+import simplilearn from "../assets/svg/skills/simplilearn.jpeg"
 
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'simplilearn':
+            return simplilearn;
+        case 'hackerrank':
+            return hackerrank;
         case 'express':
             return express;
         case 'bitbucket':
@@ -97,6 +103,8 @@ export const skillsImage = (skill) => {
             return servicenow;
         case 'node.js':
             return node_js;
+        case 'spring':
+            return spring;
         case 'gcp':
             return gcp;
         case 'html':

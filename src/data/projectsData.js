@@ -1,55 +1,70 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import twelve from "../assets/svg/projects/twelve.svg"
+import fourteen from "../assets/svg/projects/fourteen.jpeg"
+import fifteen from "../assets/svg/projects/fifteen.jpeg"
+import sixteen from "../assets/svg/projects/sixteen.jpeg"
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Hokie For U',
-        projectDesc: 'A community platform connecting Virginia Tech students, emphasizing user-friendly design and efficient communication features.',
-        tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-        code: 'https://github.com/Akshay-06/hokie-for-u',
-        image: one
+        projectName: 'From Tweets to Teams',
+        projectDesc: 'An in-depth analysis of the structural dynamics, sentiment patterns, and geographic influences shaping English Premier League fan interactions on Twitter.',
+        tags: ['SMA', 'NLTK', 'Gensim'],
+        code: 'https://github.com/Akshay-06/From-Tweets-to-Teams',
+        image: seven
     },
     {
         id: 2,
-        projectName: 'Grad Administrative Portal',
-        projectDesc: 'Redesigned and developed the GAP, optimizing access to essential forms and resources for administrators, faculty, and students within the Department of CS at Virginia Tech.',
-        tags: [ 'Figma'],
-        demo: 'https://www.figma.com/proto/08qNmrJIcdEE2Dt2UNQNGj?node-id=2319-16&t=cz7O8rkhyTwd3lt9-6',
-        image: two
+        projectName: 'Hokie For U',
+        projectDesc: 'Hokie For U: A MERN stack platform fostering collaboration among Virginia Tech Hokies.',
+        tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+        code: 'https://github.com/Akshay-06/hokie-for-u',
+        image: fifteen
     },
     {
         id: 3,
-        projectName: 'BookIt',
-        projectDesc: 'An intuitive online bookstore application, facilitating easy browsing, ordering, and management of books.',
-        tags: ['Vue.js', 'Java', 'Typescript'],
-        code: 'https://github.com/Akshay-06/BookIt',
+        projectName: 'Grad Administrative Portal',
+        projectDesc: 'Transforming academic workflows with GAP-CS, an intuitive administrative portal for Virginia Tech\'s Department of Computer Science.',
+        tags: [ 'Figma'],
+        demo: 'https://www.figma.com/proto/08qNmrJIcdEE2Dt2UNQNGj?node-id=2319-16&t=cz7O8rkhyTwd3lt9-6',
         image: three
     },
     {
         id: 4,
+        projectName: 'BookIt',
+        projectDesc: 'BookIt: Transforming the way you explore, discover, and purchase books online, through a robust Java, Vue.js, and TypeScript-driven platform.',
+        tags: ['Vue.js', 'Java', 'Typescript'],
+        code: 'https://github.com/Akshay-06/BookIt',
+        image: fourteen
+    },
+    {
+        id: 5,
         projectName: 'Accolade',
         projectDesc: 'A dynamic reward system revolutionizing employee recognition and engagement with personalized incentives and comprehensive analytics.',
         tags: ['Python', 'Flask', 'HTML/CSS', 'Power BI'],
         code: 'https://github.com/Akshay-06/Accolade',
-        image: four
+        image: sixteen
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'My Portfolio',
-        projectDesc: 'A showcase of my expertise and projects in software development, demonstrating proficiency in frontend and backend technologies.',
+        projectDesc: 'Discover a portfolio showcasing my skills, projects and more, as I drive digital transformation and deliver cutting-edge solutions.',
         tags: ['React'],
         code: 'https://github.com/Akshay-06/my-portfolio',
         demo: 'https://github.com/Akshay-06/my-portfolio',
-        image: five
+        image: four
     },
+    {
+        id: 7,
+        projectName: 'OPX',
+        projectDesc:'Revolutionizing outpatient care through a comprehensive digital platform that seamlessly connects patients, doctors, and hospital staff', 
+        tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+        code: 'https://github.com/Akshay-06/OPX',
+        image: twelve
+    }
 
 ]
 

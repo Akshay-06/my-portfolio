@@ -9,8 +9,8 @@ export const experienceData = [
     {
         id: 2,
         company: 'SmartBridge',
-        jobtitle: 'Machine Learning Intern',
-        startYear: 'Jun 2019',
-        endYear: 'Aug 2019'
+        jobtitle: 'Java Developer Intern',
+        startYear: 'May 2019',
+        endYear: 'Apr 2020'
     }
 ]
